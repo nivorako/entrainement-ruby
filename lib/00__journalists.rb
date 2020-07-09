@@ -99,6 +99,18 @@ def ascending_length_sort(list)
   end
 end 
 
+=begin
+  retourne la postion de search (constante égale à "@epenser" dans list si elle existe, -1 sinon.
+=end 
+def position_in_list(list, search="@epenser")
+  for i in 0...list.size 
+    if list[i] == search 
+      return i
+    end
+  end
+  return -1
+end 
+
 =begin 
   Fonction principale, sert à tester les différente méthodes traitant la liste des journalistes, à travers un menu.
 =end
@@ -161,8 +173,8 @@ def perform(journalists_list)
         #On peut, donc, vérifier que le premier élement est bien celui qui est donné par la méthode min_element. C'est le cas.      
         puts "----------------------------------------------------------------------------------------------------------------------------------"
       when 7 #Quelle est la position dans l'array de la personne @epenser ?
-        #test 
-        puts ""
+        #test de la méthode position_in_list
+        puts "La personne \"@epenser\" est à la position #{position_in_list(journalists_list)} dans l'array." #373
         puts "----------------------------------------------------------------------------------------------------------------------------------"      
       when 8 #Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)
 	    #test
