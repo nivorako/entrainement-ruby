@@ -30,4 +30,4 @@ Manuel d'utilisation
     * 2- La ou les crypto qui ont la plus petite valeur.
     * 3- Les devises dont le cours est inférieur à 6000
 	* 4- La devise la plus chère parmi celles dont le cours est inférieur à 6000.
-
+    * 5- Quitter le programme
