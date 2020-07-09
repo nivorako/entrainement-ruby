@@ -2,18 +2,18 @@ Projet THP: Data Scientist
 ============
 Crée par le mousaillon Sami  
 ------------
+__________________________
 
 Description
-__________________
+-----------
 deux librairies en Ruby traitant des données sur les journalistes et les cryptomonnaies. 
-
+______________________________
 Installation
-__________________
-installer ruby 
-cloner ce répertoire github 
-
+-------------
+installer ruby et puis cloner ce répertoire sur github
+___________________________________________
 Manuel d'utilisation
-______________________
+--------------------
 1. ruby ./lib/00_journalists.rb
 	* 0-Afficher le tableau de base et sa taille
 	* 1- Combien y a-t-il de handle dans cet array ?
@@ -26,4 +26,8 @@ ______________________
 	* 8- Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)        
 	* 9- Quitter le programme
 2. ruby ./lib/01_cryptocurrencies.rb
-    * work_in_progress
+    * 1- La ou les crypto qui ont la plus grosse valeur.
+    * 2- La ou les crypto qui ont la plus petite valeur.
+    * 3- Les devises dont le cours est inférieur à 6000
+	* 4- La devise la plus chère parmi celles dont le cours est inférieur à 6000.
+
